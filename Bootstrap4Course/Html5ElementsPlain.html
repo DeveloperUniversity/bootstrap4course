@@ -1,0 +1,597 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>HTML5 Quick Reference</title>
+    <style>
+        .fake-style {
+            background-color: red;
+        }
+    </style>
+    <!-- 
+        // Note: if you uncomment this, it will break the iFrame example.
+        <base href="https://devu.com" target="_blank" />
+    -->
+</head>
+<body>
+
+    <!------------------------- TYPOGRAPHY ------------------------->
+
+    <h1>Typography</h1>
+    <hr>
+
+    <h2>Headings</h2>
+
+    <h1>H1</h1>
+    <h2>H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+
+    <h2>Bold</h2>
+    <p>Lorem <b>ipsum dolor</b> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Strong</h2>
+    <p>Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Emphasis</h2>
+    <p>Lorem <em>ipsum dolor</em> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Non-textual annotation</h2>
+    <p>Lorem <u>ipsum dolor</u> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Italics</h2>
+    <p>Lorem <i>ipsum dolor</i> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Marked text</h2>
+    <p>Lorem <mark>ipsum dolor</mark> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Strike - text no longer relevant (s)</h2>
+    <p>Lorem <s>ipsum dolor</s> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Deleted and inserted text (del and ins)</h2>
+    <p>Lorem <del>ipsum dolor</del> <ins>sit amet</ins>, consectetur adipiscing elit. Nam cursus dolor at ipsum ullamcorper, sit amet fermentum metus eleifend.</p>
+
+    <h2>Quotation</h2>
+    <p>Lorem <q>ipsum dolor</q> sit amet, consectetur adipiscing elit. Nam cursus dolor at ipsum ullamcorper, sit amet fermentum metus eleifend.</p>
+
+    <h2>Subscript</h2>
+    <p>Lorem <sub>ipsum dolor</sub> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Superscript</h2>
+    <p>Lorem <sup>ipsum dolor</sup> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Small</h2>
+    <p>Lorem <small>ipsum dolor</small> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Time (and DateTime)</h2>
+    <p>Lorem ipsum reminder: <time datetime="2016-04-04T017:00-06:00">5pm today</time>.</p>
+    <p>Or, really, just every day at <time>5:00 pm</time>.</p>
+
+    <h2>Address</h2>
+    <address>
+        123 E. Main St.
+        Garland, TX 75081
+    </address>
+
+    <h2>Span</h2>
+    <p>Lorem <span>ipsum dolor</span> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Abbreviation</h2>
+    <p>Lorem ipsum <abbr title="HyperText Markup Language">HTML</abbr> ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Definition (dfn)</h2>
+    <p><dfn>Lorem ipsum</dfn>: Fake Latin used as temporary filler text for web development.</p>
+
+    <h2>Bi-Directional Text - Direction unknown at development time / user generated</h2>
+    <p>Arabic: <bdi>مرحبا بالعالم</bdi>: Hello World</p>
+
+    <h2>Bi-Directional Text - Direction specified at development time (right-to-left or left-to-right)</h2>
+    <p>Lorem <bdo dir="rtl">ipsum dolor</bdo> sit amet, consectetur adipiscing elit.</p>
+
+    <p>&nbsp;</p>
+    <!------------------------- STRUCTURE ------------------------->
+
+    <h1>Structure</h1>
+    <hr>
+    <h2>Header + Hgroup</h2>
+
+    <header>
+        <hgroup>
+            <h1>Heading 1</h1>
+            <h2>Sub-Heading</h2>
+        </hgroup>
+        <img src="//placehold.it/100x100" />
+        <p>Table of Contents</p>
+        <ol>
+            <li><a href="#item1">Item 1</a></li>
+            <li><a href="#item2">Item 2</a></li>
+            <li><a href="#item3">Item 3</a></li>
+        </ol>
+    </header>
+    <p>Note: <code>&lt;hgroup&gt;</code> was intended for headings that include multiple levels, such as subheadings, alternative titles, or taglines.  However, it has been dropped from the W3C, but still is part of the WHATWG Living standard.  Oddly, Visual Studio doesn't complain about it even though they claim to strictly follow the W3C.</p>
+
+    <h2>Navigation section</h2>
+    <nav>
+        <a href="#item1" target="_blank">Item 1</a> |
+        <a href="#item2" target="_blank">Item 2</a> |
+        <a href="#item3" target="_blank">Item 3</a>
+    </nav>
+
+    <h2>Main Section</h2>
+    <main role="main">
+
+        <article>
+            <h2>Article Section</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at leo dolor. Ut faucibus ipsum eget dictum tempor. Aliquam erat lacus, vehicula in lectus id, semper aliquam enim. In mattis turpis id tellus facilisis, in laoreet nibh volutpat. Nunc convallis elit ut velit suscipit ultricies. Vestibulum rutrum lectus ac augue vestibulum mollis. Morbi dignissim pharetra elit, et luctus lacus faucibus id. Nunc vulputate tortor non volutpat pharetra. Aliquam tempor lacinia ex a varius. Aenean gravida scelerisque dui et semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue mi, pharetra in nisi non, aliquam consectetur enim. Donec non augue mattis, faucibus urna non, malesuada mauris. Integer gravida lorem sit amet convallis egestas. Quisque sed tempus nibh, in bibendum erat. Nullam aliquet justo efficitur sollicitudin consequat.</p>
+
+            <aside>
+                <h2>Aside Section</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </aside>
+
+            <p>Sed non est ac eros tempus pellentesque vitae at arcu. Proin mattis facilisis gravida. Nulla facilisi. Vivamus leo tellus, blandit vitae lorem eget, eleifend scelerisque risus. Sed ac justo sit amet arcu rutrum interdum ut at libero. Nam ut urna faucibus, molestie libero sit amet, dignissim mauris. Nam ut dapibus sem. Sed pulvinar ante at dui placerat laoreet. Curabitur metus risus, molestie ac pulvinar quis, semper at ex. Maecenas interdum sem id massa dignissim vulputate. Praesent auctor auctor nunc in iaculis.</p>
+        </article>
+    </main>
+
+
+    <h2>Footer section</h2>
+    <footer>The DevU Ultimate HTML5 Reference Page &trade; copyright &copy; 2016 by Developer University, Inc. DevU&reg;</footer>
+
+
+    <h2>Horizontal Rule</h2>
+    <hr>
+
+    <h2>Paragraph</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam cursus dolor at ipsum ullamcorper, sit amet fermentum metus eleifend.</p>
+
+    <h2>Linebreak</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Nam cursus dolor at ipsum ullamcorper, sit amet fermentum metus eleifend.</p>
+
+    <h2>Blockquote</h2>
+    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam cursus dolor at ipsum ullamcorper, sit amet fermentum metus eleifend.</blockquote>
+
+    <h2>Division (div)</h2>
+    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam cursus dolor at ipsum ullamcorper, sit amet fermentum metus eleifend.</div>
+
+
+
+    <p>&nbsp;</p>
+    <!------------------------- OTHER ------------------------->
+
+    <h1>Other</h1>
+    <hr>
+
+    <h2>Hyperlinks and Anchors</h2>
+    <p>Lorem <a href="https://devu.com">ipsum dolor</a> sit amet, consectetur adipiscing elit.</p>
+
+    <h2>Cite</h2>
+    <p>Lorem ipsum, according to: <cite title="The History of Lorem Ipsum. Published by Pritam Das; first edition (December 5, 2013)">The History of Lorem Ipsum</cite>, dolor sit amet, consectetur adipiscing elit. <br />Nam cursus dolor at ipsum ullamcorper, sit amet fermentum metus eleifend.</p>
+
+    <h2>Linebreak</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Nam cursus dolor at ipsum ullamcorper, sit amet fermentum metus eleifend.</p>
+
+    <h2>Wrap-break opportunity (wbr)</h2>
+    <p>Loremipsumdolorsitametconsecteturadipiscingelit<wbr />Namcursusdoloratipsumullamcorpersitametfermentummetuseleifend.</p>
+
+    <h2>Image</h2>
+    <img src="//placehold.it/100x100" />
+
+    <h2>Figure and Figure Caption (figure and figcaption)</h2>
+    <p>Lorem ipsum dolor sit amet, <a href="#1">Figure 1</a> consectetur adipiscing elit.</p>
+    <figure id="1">
+        <figcaption>Figure 1. Look of Disapproval</figcaption>
+        <pre>ಠ_ಠ</pre>
+    </figure>
+
+    <h2>Image Map (Map, Area)</h2>
+    <img src="//placehold.it/200x200"
+         width="200" height="200" border="0"
+         alt="Random image from http://placehold.it"
+         usemap="#mymap" />
+    <map id="mymap" name="mymap">
+        <area shape="rect" coords="0,0,100,100"
+              href="javascript:alert('Upper-left');"
+              alt="Rectangle Area" />
+        <area shape="circle" coords="125,25,50"
+              href="https://devu.com" target="_blank"
+              alt="Circle Area" />
+        <area shape="poly" coords="101,101,120,120,101,199,199,199,199,101,101,101"
+              href="http://www.bing.com" target="_blank"
+              alt="Poly Area" />
+    </map>
+
+    <h2>Meter</h2>
+    <meter min="0" max="100" value="63" title="power">63% Remaining</meter>
+
+    <h2>Progress</h2>
+    <progress max="100" value="63">
+        <span id="power">63</span>%
+    </progress>
+
+    <h2>Keygen</h2>
+    <p>Note: Need a good example to demonstrate this.</p>
+
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ul>
+
+    <h2>Definition List</h2>
+    <dl>
+        <dt>Definition term</dt>
+        <dd>Definition description 1</dd>
+        <dd>Definition description 2</dd>
+    </dl>
+
+    <h2>Preformatted Text</h2>
+    <pre>
+      __
+    <(o )___
+     ( ._> /
+      `---'
+    </pre>
+
+    <h2>Code</h2>
+    <code>Console.WriteLine("Hello World");</code>
+
+    <h2>Keyboard instructions</h2>
+    <p>Type the following into Visual Studo: <kbd>Console.WriteLine("Hello World");</kbd> then save your work.</p>
+
+    <h2>Sample - Content outputted by a computer</h2>
+    <p>When you run the application, you will see the words <samp>Hello World</samp> appear in a Console Window.</p>
+
+    <h2>Variables (var) - Used when referencing variables in math or programming contexts</h2>
+    <p>Next, we'll set the variable <var>x</var> to the value 10.</p>
+
+    <h2>Data (Intended to be machine readable, not human readable i.e., for screen scraping apps)</h2>
+    <p>Standard Occupational Classifications (SOC)</p>
+    <ul>
+        <li><data value="15-1131">Computer Programmers</data></li>
+        <li><data value="15-1132">Software Developers, Applications</data></li>
+        <li><data value="15-1133">Software Developers, Systems Software</data></li>
+        <li><data value="15-1134">Web Developers</data></li>
+    </ul>
+
+
+    <p>&nbsp;</p>
+    <!------------------------- TABLES ------------------------->
+    <h1>Tables (Including lots of optional elements)</h1>
+    <hr>
+
+    <table border="1">
+        <caption>Table caption</caption>
+        <colgroup>
+            <col span="2" style="background-color:#eaf1fc">
+            <col style="background-color:#96bffe">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Col 1</th>
+                <th>Col 2</th>
+                <th>Col 3</th>
+                <th>Col 4</th>
+                <th>Col 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Result:</td>
+                <td>123</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+
+    <p>&nbsp;</p>
+    <!------------------------- FORMS ------------------------->
+    <h1>Forms</h1>
+    <hr>
+
+    <form>
+        <h2>Button</h2>
+        <button>Example Button</button>
+
+        <h2>Label + Input (Type=Text)</h2>
+        <label for="exampleTextbox">Label</label>
+        <input id="exampleTextbox" type="text" />
+
+        <h2>Text Area</h2>
+        <textarea cols="20" rows="5">Some initial text.</textarea>
+
+        <h2>Input (Type=Text + List + Datalist)</h2>
+        <input type="text" list="LoremIpsum">
+        <datalist id="LoremIpsum">
+            <option value="Lorem">
+            <option value="Ipsum">
+            <option value="Dolor">
+        </datalist>
+
+        <h2>Select</h2>
+        <select>
+            <option value="1">First</option>
+            <option value="2">Second</option>
+            <option value="3" selected>Third</option>
+            <option value="4">Fourth</option>
+        </select>
+
+        <h2>Select + Option Group</h2>
+        <select>
+            <optgroup label="CategoryA">
+                <option value="A1">First A Option</option>
+                <option value="A2">Second A Option</option>
+            </optgroup>
+            <optgroup label="CategoryB">
+                <option value="B1">First B Option</option>
+                <option value="B2">Second B Option</option>
+            </optgroup>
+        </select>
+
+        <h2>Fieldset and Legend</h2>
+        <fieldset>
+            <legend><b>Change Your Password</b></legend>
+            Old Password <input type="password" /><br />
+            New Password <input type="password" /><br />
+            New Password (Re-type)<input type="password" />
+        </fieldset>
+
+        <h2>Input (Type=Radio)</h2>
+        <input type="radio"value="Option 1" />
+        <input type="radio" value="Option 2" checked />
+
+        <h2>Input (Type=Checkbox)</h2>
+        <input type="checkbox" value="Option 1" />
+        <input type="checkbox" value="Option 2" checked />
+
+        <h2>Input (Type=Range)</h2>
+        <input type="range" min="0" max="100" value="63" />
+
+        <h2>Input (Type=Color)</h2>
+        <input type="color" />
+
+        <h2>Input (Type=Date)</h2>
+        <input type="date" />
+
+        <h2>Input (Type=DateTime)</h2>
+        <input type="datetime" />
+
+        <h2>Input (Type=DateTime-Local)</h2>
+        <input type="datetime-local" />
+
+        <h2>Input (Type=Time)</h2>
+        <input type="time" />
+
+        <h2>Input (Type=Month)</h2>
+        <input type="month" />
+
+        <h2>Input (Type=Week)</h2>
+        <input type="week" />
+
+        <h2>Input (Type=Number)</h2>
+        <input type="number" />
+
+        <h2>Input (Type=File)</h2>
+        <input type="file" />
+
+        <h2>Input (Type=Image)</h2>
+        <input type="image" />
+
+        <h2>Input (Type=Url)</h2>
+        <input type="url" />
+
+        <h2>Input (Type=Email)</h2>
+        <input type="email" />
+
+        <h2>Input (Type=Search)</h2>
+        <input type="search" />
+
+        <h2>Input (Type=Tel)</h2>
+        <input type="tel" />
+
+        <h2>Input (Type=Button)</h2>
+        <input type="button" value="OK" />
+
+        <h2>Input (Type=Submit)</h2>
+        <input type="submit" value="Submit" />
+
+        <h2>Input (Type=Reset)</h2>
+        <input type="button" value="Reset" />
+
+        <h2>Input (Type=Text w/ Placeholder)</h2>
+        <input type="text" placeholder="Placeholder" />
+
+
+    </form>
+
+    <p>&nbsp;</p>
+    <!------------------------- MEDIA ------------------------->
+    <h1>Media</h1>
+    <hr>
+
+    <h2>Audio + Source</h2>
+    <audio controls>
+        <source src="/Assets/Audio.mp3" type="audio/mp3" />
+        <source src="/Assets/Audio.wma" type="audio/x-ms-wma" />
+    </audio>
+    <p>Note: Use Source to provide alternative encoding verions of the given audio or video file.</p>
+
+    <h2>Video + Track</h2>
+    <video controls width="480" src="/Assets/Video.mp4" type="video/mp4">
+        Unfortunately, your browser does not support the HTML5 Video element.
+        <track src="/Assets/Video.vtt" kind="subtitles" srclang="en" label="English" />
+    </video>
+
+    <h2>IFrame</h2>
+    <iframe src="Iframe.html" width="200" height="100" scrolling="auto"></iframe>
+
+    <h2>Embed</h2>
+    <p>Note: I don't have a good example for this.  Try embedding an .swf or .mov using syntax like:</p>
+    <code>&lt;embed src="flash.swf" type="application/vnd.adobe.flash-movie"&gt;</code>
+
+
+    <p>&nbsp;</p>
+    <!------------------------- ONLY AVAILABLE IN CERTAIN BROWSERS ------------------------->
+
+    <h1>HTML5 Features Only Available in Certain Browsers</h1>
+    <hr>
+
+    <h2>Dialog (Chrome, Safari, Opera only)</h2>
+
+    <button id="show">Show Dialog</button>
+    <button id="hide">Hide Dialog</button>
+
+    <dialog id="myFirstDialog">This is a dialog.</dialog>
+
+    <script type="text/JavaScript">
+        (function () {
+            var dialog = document.getElementById('myFirstDialog');
+            document.getElementById('show').onclick = function () {
+                dialog.show();
+            };
+            document.getElementById('hide').onclick = function () {
+                dialog.close();
+            };
+        })();
+    </script>
+    <noscript>
+        Unfortunately, either your browser doesn't support JavaScript
+        or you've turned off JavaScript as a security measure.
+        Either way, here's content for non-JavaScript viewers.
+    </noscript>
+
+    <hr>
+
+    <h2>Details and Summary (Chrome)</h2>
+    <details>
+        <summary>Lorem Ipsum</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam cursus dolor at ipsum ullamcorper, sit amet fermentum metus eleifend.</p>
+    </details>
+
+    <hr>
+
+    <h2>Menu and MenuItem (Firefox Only)</h2>
+    <script type="text/javascript">
+        function changeImage(a) {
+            document.getElementById("exampleImage").src = a;
+        }
+    </script>
+    <img id="exampleImage" src="//placehold.it/100x100.png" contextmenu="imageMenu">
+    <p>
+        <menu type="context" id="imageMenu">
+            <menu label="Change Image Size ...">
+                <menuitem label="Medium (default)" onclick="changeImage('//placehold.it/100x100.png');"></menuitem>
+                <menuitem label="Small" onclick="changeImage('//placehold.it/50x50.png');"></menuitem>
+                <menuitem label="Large" onclick="changeImage('//placehold.it/200x200.png');"></menuitem>
+            </menu>
+        </menu>
+    </p>
+
+    <hr>
+
+    <h2>Canvas</h2>
+    <button onclick="draw()">Draw</button><br />
+    <canvas id="myCanvas" width="150" height="150">
+        If you can see this, then your browser does not support the canvas element.
+    </canvas>
+    <script type="application/javascript">
+    function draw() {
+      var canvas = document.getElementById("myCanvas");
+      if (canvas.getContext) {
+        var context = canvas.getContext("2d");
+
+        context.fillStyle = "rgb(0,0,205)";
+        context.fillRect (20, 20, 60, 60);
+
+        context.fillStyle = "rgba(255, 0, 0, 0.5)";
+        context.fillRect (40, 40, 60, 60);
+      }
+    }
+    </script>
+
+    <hr>
+
+    <h2>Output Example</h2>
+    <p>Note: I had to butcher this to get it to work in IE.  Ideally you would not have to use innerHTML nor set an id on the <code>&lt;output&gt;</code> element.</p>
+    <form onsubmit="false" oninput="document.getElementById('resultOutput').innerHTML = document.getElementById('firstTextbox').value + document.getElementById('secondTextbox').value">
+        <input type="text" id="firstTextbox" /><br />
+        <input type="text" id="secondTextbox" /><br />
+        <p>Result: <output name="resultOutput" id="resultOutput" for="firstTextbox secondTextbox"></output></p>
+    </form>
+
+    <hr>
+
+    <h2>Template</h2>
+
+    <template id="template">
+        <p>Hello, [shortcode]!</p>
+    </template>
+
+    <!-- Normal Content -->
+    <div id="target">
+        <p>Hello, World!</p>
+    </div>
+    <p>
+        Say hello to: <input type="text" id="replacementText" />
+        <button onclick="sayHello();">Add More Templated Content</button>
+    </p>
+    <script>
+        function sayHello() {
+            // Duplicate the template
+            var template = document.getElementById('template');
+            var cloned = template.content.cloneNode(true);
+            // Replace shortcode ... there's probably a better
+            // way to do this with jQuery.
+            var input = document.getElementById('replacementText').value;
+            cloned.textContent = cloned.textContent.replace('[shortcode]', input);
+            // Append to document
+            var target = document.getElementById('target');
+            target.appendChild(cloned);
+    }
+    </script>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+</body>
+
+</html>

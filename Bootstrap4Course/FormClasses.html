@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+
+    <style>
+        .cell {
+            background-color: #efefff;
+            border: 2px solid #c9c9ff;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 cell">
+                <h2>Label + Input (Type=Text)</h2>
+                <label for="exampleTextbox">Label</label>
+                <input id="exampleTextbox" type="text" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 cell">
+                <fieldset class="form-group">
+                    <label for="exampleTextbox" class="form-control-label">Label</label>
+                    <input id="exampleTextbox" type="text" class="form-control" />                    
+                    <small class="text-muted">
+                        Some inline text with a small tag looks like this.
+                    </small>
+
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="exampleTextArea" class="form-control-label">Textarea</label>
+                    <textarea id="exampleTextArea" class="form-control" rows="3">Some initial text.</textarea>
+                </fieldset>
+                <fieldset class="form-group">
+                    <label for="exampleSelect" class="form-control-label">Select</label>
+                    <select id="exampleSelect" class="form-control">
+                        <option value="1">First</option>
+                        <option value="2">Second</option>
+                        <option value="3" selected>Third</option>
+                        <option value="4">Fourth</option>
+                    </select>
+                </fieldset>
+                <div class="radio">
+                    <label for="radio1" class="form-control-label">
+                        <input id="radio1" type="radio" value="Option 1" />
+                        Option 1
+                    </label>
+                </div>
+                <div class="radio">
+                    <label for="radio2" class="form-control-label">
+                        <input id="radio2" type="radio" value="Option 2" checked />
+                        Option 2
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label for="checkbox1" class="form-control-label">
+                        <input id="checkbox1" type="checkbox" value="Option 1" />
+                        Option 1
+                    </label>
+                </div>
+                <div class="checkbox">
+                    <label for="checkbox2" class="form-control-label">
+                        <input id="checkbox2" type="checkbox" value="Option 2" checked />
+                        Option 2
+                    </label>
+                </div>
+
+                <fieldset class="form-group">
+                    <label for="exampleRange" class="form-control-label">Range</label>
+                    <input type="range" id="exampleRange" min="0" max="100" value="63" class="form-control-range" />
+                </fieldset>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 cell">
+
+                <form>
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 form-control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-2 form-control-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2">Radios</label>
+                        <div class="col-sm-10">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                    Option one is this and that&mdash;be sure to include why it's great
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                    Option two can be something else and selecting it will deselect option one
+                                </label>
+                            </div>
+                            <div class="radio disabled">
+                                <label>
+                                    <input type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                                    Option three is disabled
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2">Checkbox</label>
+                        <div class="col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Check me out
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-secondary">Sign in</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 cell p-a-1">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="exampleTextbox2" class="form-control-label">Name</label>
+                        <input id="exampleTextbox2" class="form-control" type="text" placeholder="John Smith" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleTextbox3" class="form-control-label">Email</label>
+                        <input id="exampleTextbox3" class="form-control" type="text" placeholder="john@example.com" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 cell">
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1"> My Label Text
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" id="inlineRadio1" value="option1"> My Label Text
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 cell">
+                <form>
+                    <div class="form-group row">
+                        <label class="col-sm-2 form-control-label">Email</label>
+                        <div class="col-sm-10">
+                            <p class="form-control-static">email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword" class="col-sm-2 form-control-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        </div>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 cell">
+                <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+                <input class="form-control" type="text" placeholder="Default input">
+                <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 cell">
+                <div class="form-group has-success">
+                    <label class="form-control-label" for="inputSuccess1">Input with success</label>
+                    <input type="text" class="form-control form-control-success" id="inputSuccess1">
+                </div>
+                <div class="form-group has-warning">
+                    <label class="form-control-label" for="inputWarning1">Input with warning</label>
+                    <input type="text" class="form-control form-control-warning" id="inputWarning1">
+                </div>
+                <div class="form-group has-danger">
+                    <label class="form-control-label" for="inputDanger1">Input with danger</label>
+                    <input type="text" class="form-control form-control-danger" id="inputDanger1">
+                </div>
+                <div class="checkbox has-feedback">
+                    <label>
+                        <input type="checkbox" id="checkboxSuccess" value="option1">
+                        Checkbox with success
+                    </label>
+                </div>
+                <div class="checkbox has-warning">
+                    <label>
+                        <input type="checkbox" id="checkboxWarning" value="option1">
+                        Checkbox with warning
+                    </label>
+                </div>
+                <div class="checkbox has-danger">
+                    <label>
+                        <input type="checkbox" id="checkboxDanger" value="option1">
+                        Checkbox with danger
+                    </label>
+                </div>
+        </div>
+    </div>
+
+</div>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="Scripts/jquery-2.0.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>

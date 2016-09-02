@@ -1,0 +1,40 @@
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\csc.exe
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\vbc.exe
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\VBCSCompiler.exe
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\Bootstrap4Course.dll.config
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\Bootstrap4Course.dll
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\Bootstrap4Course.pdb
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\obj\Debug\Bootstrap4Course.csprojResolveAssemblyReference.cache
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\obj\Debug\Bootstrap4Course.dll
+C:\Users\bob\Documents\Visual Studio 2015\Projects\Bootstrap4Course\Bootstrap4Course\obj\Debug\Bootstrap4Course.pdb
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\csc.exe
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\vbc.exe
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\VBCSCompiler.exe
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\Bootstrap4Course.dll.config
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\Bootstrap4Course.dll
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\Bootstrap4Course.pdb
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\Bootstrap4Course\Bootstrap4Course\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\Bootstrap4Course\Bootstrap4Course\obj\Debug\Bootstrap4Course.csprojResolveAssemblyReference.cache
+C:\Projects\Bootstrap4Course\Bootstrap4Course\obj\Debug\Bootstrap4Course.dll
+C:\Projects\Bootstrap4Course\Bootstrap4Course\obj\Debug\Bootstrap4Course.pdb

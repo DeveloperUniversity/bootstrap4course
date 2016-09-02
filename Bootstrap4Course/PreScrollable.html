@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>HTML5 Quick Reference</title>
+    <style>
+        .fake-style {
+            background-color: red;
+        }
+    </style>
+    <!--
+        // Note: if you uncomment this, it will break the iFrame example.
+        <base href="https://devu.com" target="_blank" />
+    -->
+    <!-- Bootstrap CSS -->
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <!------------------------- TYPOGRAPHY ------------------------->
+
+    <h1>Code</h1>
+    <hr>
+
+
+    <h2>Preformatted Text</h2>
+    <pre>
+      __
+    <(o )___
+     ( ._> /
+      `---'
+    </pre>
+
+    <pre class="pre-scrollable">
+ class LinqSamples 
+        { 
+            private List<Product> productList; 
+            private List<Customer> customerList; 
+            private List<Supplier> supplierList; 
+ 
+            [Category("Join Operators")] 
+            [Description("This sample shows how to perform a simple inner equijoin of two sequences to " + 
+                "produce a flat result set that consists of each element in suppliers that has a matching element " + 
+                "in customers.")] 
+            public void Linq102() 
+            { 
+ 
+                List<Customer> customers = GetCustomerList(); 
+                List<Supplier> suppliers = GetSupplierList(); 
+ 
+                var custSupJoin = 
+                    from sup in suppliers 
+                    join cust in customers on sup.Country equals cust.Country 
+                    select new { Country = sup.Country, SupplierName = sup.SupplierName, CustomerName = cust.CompanyName }; 
+ 
+                foreach (var item in custSupJoin) 
+                { 
+                    Console.WriteLine("Country = {0}, Supplier = {1}, Customer = {2}", item.Country, item.SupplierName, item.CustomerName); 
+                } 
+            } 
+    </pre>
+
+    <h2>Code</h2>
+    <code>Console.WriteLine("Hello World");</code>
+
+    <h2>Keyboard instructions</h2>
+    <p>Type the following into Visual Studo: <kbd>Console.WriteLine("Hello World");</kbd> then save your work.</p>
+
+    <h2>Sample - Content outputted by a computer</h2>
+    <p>When you run the application, you will see the words <samp>Hello World</samp> appear in a Console Window.</p>
+
+    <h2>Variables (var) - Used when referencing variables in math or programming contexts</h2>
+    <p>Next, we'll set the variable <var>x</var> to the value 10.</p>
+
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="Scripts/jquery-2.0.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>

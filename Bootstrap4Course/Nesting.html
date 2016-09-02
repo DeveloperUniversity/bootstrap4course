@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+
+    <style>
+        .outer {
+            background-color: #efefff;
+        }
+
+        .inner {
+            background-color: #cbd0e6;
+            border: 2px solid white;
+        }
+
+        .outline {
+            border: 2px dashed red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="outer col-xs-8">
+                Here's a nested ROW:
+                <div class="row outline">
+                    <div class="inner col-sm-3  col-sm-offset-2">Inner Cell</div>
+                    <div class="inner col-sm-3">Inner Cell</div>
+                    <div class="inner col-sm-3">Inner Cell</div>
+                </div>
+                &nbsp;
+            </div>
+            <div class="col-xs-4 outer">Regular Cell</div>
+        </div>
+
+        <p>&nbsp;</p>
+
+        <div class="row">
+            <div class="outer col-xs-4">
+                Here's a nested ROW:
+                <div class="row outline">
+                    <div class="inner col-sm-3  col-sm-offset-2">Inner Cell</div>
+                    <div class="inner col-sm-3">Inner Cell</div>
+                    <div class="inner col-sm-3">Inner Cell</div>
+                </div>
+                &nbsp;
+            </div>
+            <div class="col-xs-8 outer">Regular Cell</div>
+        </div>
+
+        <p>&nbsp;</p>
+
+
+        <div class="row">
+            <div class="outer col-xs-8">
+                Here's an nested CONTAINER:
+                <div class="container outline">
+                    <div class="row">
+                        <div class="inner col-sm-3  col-sm-offset-2">Inner Cell</div>
+                        <div class="inner col-sm-3">Inner Cell</div>
+                        <div class="inner col-sm-3">Inner Cell</div>
+                    </div>
+                    &nbsp;
+                </div>
+            </div>
+            <div class="col-xs-4 outer">Regular Cell</div>
+        </div>
+
+        <p>&nbsp;</p>
+
+
+        <div class="row">
+            <div class="outer col-xs-4">
+                Here's a nested CELL:
+                <div class="inner col-xs-3 col-xs-offset-8 outline">Inner Cell</div>
+                &nbsp;
+            </div>
+            <div class="outer col-xs-8">Regular Cell</div>
+        </div>
+
+        <p>&nbsp;</p>
+
+
+        <div class="row">
+            <div class="outer col-xs-8">
+                Here's a nested CELL:
+                <div class="inner col-xs-3 col-xs-offset-8 outline">Inner Cell</div>
+                &nbsp;
+            </div>
+            <div class="outer col-xs-4">Regular Cell</div>
+        </div>
+
+
+    </div>
+
+
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="Scripts/jquery-2.0.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>
